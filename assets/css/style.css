@@ -1,9 +1,7 @@
-/**
-* Template Name: FlexStart - v1.12.0
-* Template URL: https://bootstrapmade.com/flexstart-bootstrap-startup-template/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
+@font-face {
+  font-family: 'sfpro';
+  src: url(/SF-Pro-Display-Medium.otf);
+}
 
 /*--------------------------------------------------------------
 # General
@@ -13,17 +11,17 @@
 }
 
 body {
-  font-family: "Open Sans", sans-serif;
-  color: #444444;
+  font-family:'sfpro';
+  color: #000000;
 }
 
 a {
-  color: #4154f1;
+  color: #dadcec;
   text-decoration: none;
 }
 
 a:hover {
-  color: #717ff5;
+  color: #ffffff;
   text-decoration: none;
 }
 
@@ -33,7 +31,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Nunito", sans-serif;
+  font-family:'sfpro';
 }
 
 /*--------------------------------------------------------------
@@ -55,7 +53,7 @@ section {
   letter-spacing: 1px;
   font-weight: 700;
   margin: 0;
-  color: #4154f1;
+  color: #ffffff;
   text-transform: uppercase;
 }
 
@@ -65,7 +63,7 @@ section {
   font-size: 38px;
   line-height: 42px;
   font-weight: 700;
-  color: #012970;
+  color: #ffffff;
 }
 
 @media (max-width: 768px) {
@@ -102,7 +100,7 @@ section {
 
 .breadcrumbs ol a {
   color: #fff;
-  transition: 0.3s;
+  transition: 0.2s;
 }
 
 .breadcrumbs ol a:hover {
@@ -144,8 +142,8 @@ section {
 }
 
 .back-to-top:hover {
-  background: #6776f4;
-  color: #fff;
+  background: #000000;
+  color: #000000;
 }
 
 .back-to-top.active {
@@ -166,7 +164,7 @@ section {
 # Header
 --------------------------------------------------------------*/
 .header {
-  transition: all 0.5s;
+  transition: all 0.2s;
   z-index: 997;
   padding: 20px 0;
 }
@@ -174,7 +172,6 @@ section {
 .header.header-scrolled {
   background: #fff;
   padding: 15px 0;
-  box-shadow: 0px 2px 20px rgba(1, 41, 112, 0.1);
 }
 
 .header .logo {
@@ -184,16 +181,9 @@ section {
 .header .logo img {
   max-height: 50px;
   margin-right: 4px;
+  margin-top: 5%;
 }
 
-.header .logo span {
-  font-size: 30px;
-  font-weight: 700;
-  letter-spacing: 1px;
-  color: #012970;
-  font-family: "Nunito", sans-serif;
-  margin-top: 3px;
-}
 
 /*--------------------------------------------------------------
 # Navigation Menu
@@ -223,12 +213,12 @@ section {
   align-items: center;
   justify-content: space-between;
   padding: 10px 0 10px 30px;
-  font-family: "Nunito", sans-serif;
+  font-family:'sfpro';
   font-size: 16px;
   font-weight: 700;
-  color: #013289;
+  color: #000000;
   white-space: nowrap;
-  transition: 0.3s;
+  transition: 0.2s;
 }
 
 .navbar a i,
@@ -242,22 +232,22 @@ section {
 .navbar .active,
 .navbar .active:focus,
 .navbar li:hover>a {
-  color: #4154f1;
+  color: #4469aa;
 }
 
 .navbar .getstarted,
 .navbar .getstarted:focus {
-  background: #4154f1;
+  background: #4469aa;
   padding: 8px 20px;
   margin-left: 30px;
   border-radius: 4px;
-  color: #fff;
+  color: #ffffff;
 }
 
 .navbar .getstarted:hover,
 .navbar .getstarted:focus:hover {
   color: #fff;
-  background: #5969f3;
+  background: #000000;
 }
 
 
@@ -266,12 +256,12 @@ section {
 * Mobile Navigation 
 */
 .mobile-nav-toggle {
-  color: #012970;
+  color: #4469aa;
   font-size: 28px;
   cursor: pointer;
   display: none;
   line-height: 0;
-  transition: 0.5s;
+  transition: 0.2s;
 }
 
 .mobile-nav-toggle.bi-x {
@@ -296,7 +286,7 @@ section {
   left: 0;
   bottom: 0;
   background: rgba(1, 22, 61, 0.9);
-  transition: 0.3s;
+  transition: 0.2s;
 }
 
 .navbar-mobile .mobile-nav-toggle {
@@ -316,20 +306,20 @@ section {
   border-radius: 10px;
   background-color: #fff;
   overflow-y: auto;
-  transition: 0.3s;
+  transition: 0.2s;
 }
 
 .navbar-mobile a,
 .navbar-mobile a:focus {
   padding: 10px 20px;
   font-size: 15px;
-  color: #012970;
+  color: #4469aa;
 }
 
 .navbar-mobile a:hover,
 .navbar-mobile .active,
 .navbar-mobile li:hover>a {
-  color: #4154f1;
+  color: #4469aa;
 }
 
 .navbar-mobile .getstarted,
@@ -365,7 +355,7 @@ section {
   line-height: 0;
   padding: 15px 40px;
   border-radius: 4px;
-  transition: 0.5s;
+  transition: 0.2s;
   color: #fff;
   background: #4154f1;
   box-shadow: 0px 5px 30px rgba(65, 84, 241, 0.4);
@@ -373,7 +363,7 @@ section {
 }
 
 .hero .btn-get-started span {
-  font-family: "Nunito", sans-serif;
+  font-family: "sfpro";
   font-weight: 600;
   font-size: 16px;
   letter-spacing: 1px;
@@ -382,7 +372,7 @@ section {
 .hero .btn-get-started i {
   margin-left: 5px;
   font-size: 18px;
-  transition: 0.3s;
+  transition: 0.2s;
 }
 
 .hero .btn-get-started:hover i {
@@ -466,14 +456,14 @@ section {
   line-height: 0;
   padding: 15px 40px;
   border-radius: 4px;
-  transition: 0.5s;
+  transition: 0.2s;
   color: #fff;
   background: #4154f1;
   box-shadow: 0px 5px 25px rgba(65, 84, 241, 0.3);
 }
 
 .about .btn-read-more span {
-  font-family: "Nunito", sans-serif;
+  font-family: "sfpro";
   font-weight: 600;
   font-size: 16px;
   letter-spacing: 1px;
@@ -482,7 +472,7 @@ section {
 .about .btn-read-more i {
   margin-left: 5px;
   font-size: 18px;
-  transition: 0.3s;
+  transition: 0.2s;
 }
 
 .about .btn-read-more:hover i {
@@ -496,13 +486,13 @@ section {
   padding: 30px;
   box-shadow: 0px 0 5px rgba(1, 41, 112, 0.08);
   text-align: center;
-  transition: 0.3s;
+  transition: 0.2s;
   height: 100%;
 }
 
 .values .box img {
   padding: 30px 50px;
-  transition: 0.5s;
+  transition: 0.2s;
   transform: scale(1.1);
   width: 60%;
 }
@@ -530,7 +520,7 @@ section {
   height: 100%;
   padding: 60px 30px;
   text-align: center;
-  transition: 0.3s;
+  transition: 0.2s;
   border-radius: 5px;
 }
 
@@ -542,7 +532,7 @@ section {
   margin-bottom: 25px;
   display: inline-block;
   line-height: 0;
-  transition: 0.3s;
+  transition: 0.2s;
 }
 
 .services .service-box h3 {
@@ -690,7 +680,7 @@ section {
   border-radius: 4px;
   position: relative;
   overflow: hidden;
-  transition: 0.3s;
+  transition: 0.2s;
 }
 
 .pricing .box:hover {
@@ -754,9 +744,9 @@ section {
   transition: none;
   font-size: 16px;
   font-weight: 400;
-  font-family: "Nunito", sans-serif;
+  font-family: "sfpro";
   font-weight: 600;
-  transition: 0.3s;
+  transition: 0.2s;
   border: 1px solid #219042;
 }
 
@@ -792,7 +782,7 @@ section {
   border-radius: 5px;
   background: #fff;
   box-shadow: 0px 0 30px rgba(1, 41, 112, 0.08);
-  transition: 0.3s;
+  transition: 0.2s;
 }
 
 .team .member .member-img {
@@ -818,7 +808,7 @@ section {
   top: 30px;
   opacity: 0;
   border-radius: 4px;
-  transition: 0.5s;
+  transition: 0.2s;
   background: rgba(255, 255, 255, 0.3);
   z-index: 2;
 }
@@ -1034,7 +1024,7 @@ section {
 
 .blog .entry .entry-title a {
   color: #012970;
-  transition: 0.3s;
+  transition: 0.2s;
 }
 
 .blog .entry .entry-title a:hover {
@@ -1086,7 +1076,7 @@ section {
   background: #4154f1;
   color: #fff;
   padding: 6px 20px;
-  transition: 0.3s;
+  transition: 0.2s;
   font-size: 14px;
   border-radius: 4px;
 }
@@ -1143,7 +1133,7 @@ section {
 
 .blog .entry .entry-footer a {
   color: #013289;
-  transition: 0.3s;
+  transition: 0.2s;
 }
 
 .blog .entry .entry-footer a:hover {
@@ -1252,7 +1242,7 @@ section {
 .blog .blog-comments .comment h5 a {
   font-weight: bold;
   color: #444444;
-  transition: 0.3s;
+  transition: 0.2s;
 }
 
 .blog .blog-comments .comment h5 a:hover {
@@ -1344,7 +1334,7 @@ section {
 
 .blog .blog-pagination li {
   margin: 0 5px;
-  transition: 0.3s;
+  transition: 0.2s;
 }
 
 .blog .blog-pagination li a {
@@ -1410,7 +1400,7 @@ section {
   margin: -1px;
   background: #4154f1;
   color: #fff;
-  transition: 0.3s;
+  transition: 0.2s;
   border-radius: 0 4px 4px 0;
   line-height: 0;
 }
@@ -1434,7 +1424,7 @@ section {
 
 .blog .sidebar .categories ul a {
   color: #012970;
-  transition: 0.3s;
+  transition: 0.2s;
 }
 
 .blog .sidebar .categories ul a:hover {
@@ -1464,7 +1454,7 @@ section {
 
 .blog .sidebar .recent-posts h4 a {
   color: #012970;
-  transition: 0.3s;
+  transition: 0.2s;
 }
 
 .blog .sidebar .recent-posts h4 a:hover {
@@ -1499,7 +1489,7 @@ section {
   margin: 0 6px 8px 0;
   border: 1px solid #d7e6ff;
   display: inline-block;
-  transition: 0.3s;
+  transition: 0.2s;
 }
 
 .blog .sidebar .tags ul a:hover {
@@ -1556,7 +1546,7 @@ section {
   font-weight: 700;
   letter-spacing: 1px;
   color: #012970;
-  font-family: "Nunito", sans-serif;
+  font-family: "sfpro";
   margin-top: 3px;
 }
 
@@ -1564,7 +1554,7 @@ section {
   font-size: 14px;
   line-height: 24px;
   margin-bottom: 0;
-  font-family: "Nunito", sans-serif;
+  font-family: "sfpro";
 }
 
 .footer .footer-top .social-links a {
@@ -1573,7 +1563,7 @@ section {
   color: rgba(1, 41, 112, 0.5);
   line-height: 0;
   margin-right: 10px;
-  transition: 0.3s;
+  transition: 0.2s;
 }
 
 .footer .footer-top .social-links a:hover {
@@ -1618,7 +1608,7 @@ section {
 
 .footer .footer-top .footer-links ul a {
   color: #013289;
-  transition: 0.3s;
+  transition: 0.2s;
   display: inline-block;
   line-height: 1;
 }
